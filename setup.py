@@ -24,6 +24,7 @@ setup(name='collective.recipe.symlink',
       zip_safe=False,
       install_requires=[
           'setuptools',
+          'zc.recipe.egg',
           # -*- Extra requirements: -*-
       ],
       entry_points = {'zc.buildout':
